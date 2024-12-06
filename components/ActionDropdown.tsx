@@ -12,11 +12,9 @@ import {
 import {
   Dialog,
   DialogContent,
-  DialogDescription,
   DialogFooter,
   DialogHeader,
   DialogTitle,
-  DialogTrigger,
 } from "@/components/ui/dialog";
 
 import { actionsDropdownItems } from "@/constants";
@@ -80,6 +78,9 @@ const ActionDropdown = ({ file }: { file: Models.Document }) => {
       emails: updatedEmails,
       path,
     });
+
+    if (success) setEmails(updatedEmails);
+    closeAllModals();
   };
 
   const renderDialogueContent = () => {
