@@ -5,5 +5,18 @@
     "standard",
     "plugin:tailwindcss/recommended",
     "prettier"
+  ],
+  "rules": {
+    "no-undef": "off", // Disable the no-undef rule if you want to allow undefined variables (not recommended)
+    "@typescript-eslint/no-explicit-any": "warn", // Change to "warn" to allow any but still show a warning
+    "@typescript-eslint/no-unused-vars": ["warn", { "argsIgnorePattern": "^_" }] // Warn on unused vars, ignore args starting with _
+  },
+  "overrides": [
+    {
+      "files": ["*.ts", "*.tsx"],
+      "rules": {
+        "no-undef": "off" // Disable no-undef for TypeScript files
+      }
+    }
   ]
 }
