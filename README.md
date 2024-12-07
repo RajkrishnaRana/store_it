@@ -14,9 +14,10 @@ StoreIt is a digital storage application, similar to Google Drive, allowing user
 
 ## Tech Stack
 
-- **Frontend:** [Next.js 15](https://nextjs.org/)
-- **Backend:** [Appwrite](https://appwrite.io/)
-- **Styling:** [TailwindCSS](https://tailwindcss.com/), [shadcn/ui](https://ui.shadcn.com/)
+- **Frontend:** Next.js 15
+- **Backend:** Appwrite
+- **Styling:** TailwindCSS, shadcn/ui
+- **Programming Language:** Typescript
 
 ## Getting Started
 
