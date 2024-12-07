@@ -1,4 +1,4 @@
-![StoreIt Cover Image](public/cover-image.png)
+![StoreIt Cover Image](public/images/showcase.gif)
 
 # StoreIt
 
